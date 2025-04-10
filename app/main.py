@@ -70,7 +70,7 @@ class DeliveryDrone(FlyingRobot):
             weight: int,
             coords: Optional[list[int]] = None,
             max_load_weight: int = 0,
-            current_load: list | None  = None
+            current_load: list | None = None
 
 
     ) -> None:
